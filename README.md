@@ -5,7 +5,7 @@ some toy codes. just for fun..
 
 Priqueue
 --------
-一个基于[Redis script](https://redis.readthedocs.org/en/latest/script/index.html)实现的优先级队列，支持阻塞非阻塞读、队列结点超时等；
+一个基于[Redis script](https://redis.readthedocs.org/en/latest/script/index.html)实现的优先级队列，支持阻塞/非阻塞读、队列结点数据超时等；
 
 enqueue.lua：入队操作；
 
