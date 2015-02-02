@@ -2,6 +2,7 @@ myRedisToys
 =================
 
 some toy codes. just for fun..
+No license
 
 Priqueue
 --------
