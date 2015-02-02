@@ -17,4 +17,8 @@ rmqueue.lua：清空队列；
 
 prique.c：C封装的同步接口；
 
+RWLock
+--------
+分布式读写锁，lua script实现，具体见rwlock.php、example-rwlock.php
+
 * wangrj1981@gmail.com
