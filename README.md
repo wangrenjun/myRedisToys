@@ -21,3 +21,23 @@ prique.c：C封装的同步接口；
 RWLock
 --------
 分布式读写锁，lua script实现，具体见rwlock.php、example-rwlock.php
+
+redisobjsize.c
+--------------
+统计Redis的键占用内存空间大小的命令行工具
+
+用法：
+
+redisobjsize --help
+
+查看键尺寸：
+
+redisobjsize -h 127.0.0.1 -p 6379 -k USER:10000 -k USER:10001 -k USER:10002
+
+查看整个库尺寸：
+
+redisobjsize -h 127.0.0.1 -p 6379 --scan=*
+
+查看所有用户尺寸：
+
+redisobjsize -h 127.0.0.1 -p 6379 --scan=USER:*
