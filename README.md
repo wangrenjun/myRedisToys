@@ -1,8 +1,7 @@
 myRedisToys
 =================
 
-some toy codes. just for fun..
-No license
+some toy codes, just for fun.
 
 Priqueue
 --------
@@ -20,7 +19,7 @@ prique.c：C封装的同步接口；
 
 RWLock
 --------
-分布式读写锁，lua script实现，具体见rwlock.php、example-rwlock.php
+分布式读写锁，lua script实现，见rwlock.php、example-rwlock.php
 
 redisobjsize.c
 --------------
